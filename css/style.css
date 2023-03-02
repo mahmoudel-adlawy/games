@@ -1,0 +1,142 @@
+body{
+    background-color: #272B30;
+    
+    font-family: "Nerko One", "cursive";
+    overflow: hidden;
+}
+header{
+    max-height: 30vh;
+}
+header img{
+    max-height: 30vh;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    border-radius: 20px;
+    width: 70%;
+    margin: auto;
+    background-color: #3A497B !important;
+}
+.card img{
+    opacity: 0.6;
+    transition: all 1s;
+}
+.card{
+    height: 380px;
+    color: white !important;
+
+    background-color: #272B30;
+    transition: all 0.5s;
+
+
+}
+.card:hover .btn{
+    background-color: #0D6EFD;
+
+
+}
+.card:hover{
+    transform: scale(1.1,1.1);
+
+}
+.card:hover img{
+    opacity: 1;
+
+}
+.card h5{
+    font-family:"Nerko One";
+}
+
+.card p{
+    color: #808285;
+    text-align: center;
+}
+.btn{
+    width: 55px;
+    background-color: #092faa57;
+    transition: 1s;
+}
+.badge{
+    border: solid 1px #32383E;
+}
+.game{
+    border: solid 1px #FFC107;
+    background-color: #272B30;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 1s;
+    text-decoration: none;
+}
+.game:hover{
+    background-color: #FFC107;
+}
+.eladl{
+    border: solid 1px #0DCAF0;
+    background-color: #0DCAF0;
+    color: black;
+    border-radius: 30px;
+    font-size: 15px;
+    
+}
+
+i{
+    position: absolute;
+    color: black;
+    top: 5%;
+    right: 10%;
+}
+
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #32383E ;
+    opacity: 0.7;
+}
+.loader {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 4px solid #FFF;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    
+  }
+  .loader::after {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border-left: 4px solid #FF3D00;
+    border-bottom: 4px solid transparent;
+    animation: rotation 0.5s linear infinite reverse;
+  }
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+
+.nav-item .nav-link{
+    transition: all;
+  }
+.nav-item .nav-link:hover  {
+    color: #0099CC;
+    
+
+} 
